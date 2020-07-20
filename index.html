@@ -12,16 +12,32 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: 'Inspire',
+      repo: 'https://github.com/InTenzin/Inspire',
       maxLevel: 5,//最大支持渲染的标题层级
       subMaxLevel: 3,
       homepage: 'README.md',
       coverpage: true,
       loadSidebar: true,
       auto2top: true,//切换页面后是否自动跳转到页面顶部
+      //全文搜索
+      search: {
+        //maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        // 搜索标题的最大程级, 1 - 6
+        depth: 3,
+      },
+      // plugins: [
+      //   EditOnGithubPlugin.create('https://github.com/InTenzin/Inspire/blob/master/')
+      // ],
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!--全文搜索,直接用官方提供的无法生效-->
+  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+
+
 </body>
 </html>

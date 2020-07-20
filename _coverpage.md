@@ -5,7 +5,7 @@
 
 [常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/)
 [GitHub](https://github.com/InTenzin/Inspire)
-[开始阅读](#docsify-demo)
+[开始阅读](#Inspire)
 
 
 
